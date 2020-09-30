@@ -15,7 +15,7 @@ pipeline {
         stage('Build Image') {
             steps {
                 script {
-                	app = docker.build("jchdock/serenity-bdd-docker")
+                	app = docker.build("jchdock/screenplay-todomvc")
                 }
             }
         }
