@@ -94,7 +94,7 @@
         </dependency>
     </dependencies>
     <build>
-    <!--     <finalName>serenity-screenplay-docker-bdd</finalName> -->
+        <finalName>serenity-screenplay-docker-bdd</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -132,11 +132,11 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
-<!--                     <testSource>1.8</testSource>
-                    <testTarget>1.8</testTarget> -->
+                    <testSource>1.8</testSource>
+                    <testTarget>1.8</testTarget>
                 </configuration>
             </plugin>
-   <!--          <plugin>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
                 <executions>
@@ -165,7 +165,7 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin> -->
+            </plugin>
             <plugin>
                 <groupId>net.serenity-bdd.maven.plugins</groupId>
                 <artifactId>serenity-maven-plugin</artifactId>
